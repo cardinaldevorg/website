@@ -1,3 +1,48 @@
 module:
   imports:
     - path: github.com/imfing/hextra
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Cardinal
+  fr:
+    languageName: French
+    weight: 2
+    title: Cardinal
+  es:
+    languageName: Spanish
+    weight: 3
+    title: Cardinal
+  ar:
+    languageName: Arabic
+    weight: 4
+    title: كاردينال
+
+menu:
+  main:
+    - identifier: stories
+      name: Stories
+      pageRef: /stories
+      weight: 1
+    - identifier: contact
+      name: Contact
+      pageRef: /contact
+      weight: 1
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 1
+    - identifier: Search
+      name: search
+
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/cardinaldevorg"
+      params:
+        icon: github

@@ -35,9 +35,12 @@ menu:
       name: About
       pageRef: /about
       weight: 1
+    - identifier: products
+      name: Products
+      pageRef: /products
+      weight: 1
     - identifier: Search
       name: search
-
       weight: 5
       params:
         type: search
